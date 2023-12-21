@@ -74,5 +74,5 @@ defmodule Day1 do
     defp last_digit(<<_::utf8, rest::binary>>), do: last_digit(rest)
   end
 end
-IO.puts(Day1.Part1.calculate_score_for_file("input.txt"))
-IO.inspect(Day1.Part2.solve("input.txt"))
+IO.puts(Day1.Part1.calculate_score_for_file("../../Inputs/day1.txt"))
+IO.inspect(Day1.Part2.solve("../../Inputs/day1.txt"))
